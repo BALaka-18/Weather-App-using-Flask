@@ -13,7 +13,7 @@ db = SQLAlchemy(app)
 # Class to define table inside database
 class City(db.Model):
     id = db.Column(db.Integer, primary_key=True)    # City id, PRIMARY KEY
-    name = db.Column(db.String(50), nullable=False) # City name, NOT NULL 
+    name = db.Column(db.String(50), nullable=False) # City name, NOT NULL.
 
 
 
